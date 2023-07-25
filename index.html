@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+    <title>Heroes Game</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1 class="title">Heroes Game</h1>
+      <div class="btns-container">
+        <button class="btn" id="show-heroes">Show Heroes</button>
+        <button class="btn start-fight" id="start-fight">Start Fight</button>
+      </div>
+      <div class="heroes-container">
+        <div class="hero-container">
+          <div class="hero-avatar hulk"></div>
+          <div class="hero-details">
+            <span class="name animate-character">Hulk</span>
+            <span>Life: 80HP</span>
+            <span>LVL: 20</span>
+            <span>Power: 100%</span>
+          </div>
+        </div>
+        <div class="hero-container">
+          <div class="hero-avatar spiderman"></div>
+          <div class="hero-details">
+            <span class="name animate-character">Spiderman</span>
+            <span>Life: 50HP</span>
+            <span>LVL: 13</span>
+            <span>Power: 76%</span>
+          </div>
+        </div>
+        <div class="hero-container">
+          <div class="hero-avatar ironman"></div>
+          <div class="hero-details">
+            <span class="name animate-character">Ironman</span>
+            <span>Life: 100HP</span>
+            <span>LVL: 26</span>
+            <span>Power: 90%</span>
+          </div>
+        </div>
+      </div>
+      <div class="show-winner" id="show-winner"></div>
+    </div>
+
+    <script src="main.js"></script>
+    <script src="dinamic.js"></script>
+  </body>
+</html>
